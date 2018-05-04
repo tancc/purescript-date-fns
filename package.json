@@ -1,0 +1,10 @@
+{
+  "name": "purescript-date-fns",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "YinTing.Tan <vr2006ccc@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^1.29.0"
+  }
+}

@@ -1,0 +1,158 @@
+based on [Date-Fns](https://github.com/date-fns/date-fns) V1.29.0
+
+WIP (35/154)
+
+- [X] addDays
+- [X] addHours
+- [X] addISOYears
+- [X] addMilliseconds
+- [X] addMinutes
+- [X] addMonths
+- [X] addQuarters
+- [X] addSeconds
+- [X] addWeeks
+- [X] addYears
+- [X] areRangesOverlapping
+- [X] closestIndexTo
+- [X] closestTo
+- [X] compareAsc
+- [X] compareDesc
+- [X] differenceInCalendarDays
+- [X] differenceInCalendarISOWeeks
+- [X] differenceInCalendarISOYears
+- [X] differenceInCalendarMonths
+- [X] differenceInCalendarQuarters
+- [X] differenceInCalendarWeeks
+- [X] differenceInCalendarYears
+- [X] differenceInDays
+- [X] differenceInHours
+- [X] differenceInISOYears
+- [X] differenceInMilliseconds
+- [X] differenceInMinutes
+- [X] differenceInMonths
+- [X] differenceInQuarters
+- [X] differenceInSeconds
+- [X] differenceInWeeks
+- [X] differenceInYears
+- [X] distanceInWords
+- [X] distanceInWordsStrict
+- [X] distanceInWordsToNow
+- [ ] eachDay
+- [ ] endOfDay
+- [ ] endOfHour
+- [ ] endOfISOWeek
+- [ ] endOfISOYear
+- [ ] endOfMinute
+- [ ] endOfMonth
+- [ ] endOfQuarter
+- [ ] endOfSecond
+- [ ] endOfToday
+- [ ] endOfTomorrow
+- [ ] endOfWeek
+- [ ] endOfYear
+- [ ] endOfYesterday
+- [ ] format
+- [ ] getDate
+- [ ] getDay
+- [ ] getDayOfYear
+- [ ] getDaysInMonth
+- [ ] getDaysInYear
+- [ ] getHours
+- [ ] getISODay
+- [ ] getISOWeek
+- [ ] getISOWeeksInYear
+- [ ] getISOYear
+- [ ] getMilliseconds
+- [ ] getMinutes
+- [ ] getMonth
+- [ ] getOverlappingDaysInRanges
+- [ ] getQuarter
+- [ ] getSeconds
+- [ ] getTime
+- [ ] getYear
+- [ ] isAfter
+- [ ] isBefore
+- [ ] isDate
+- [ ] isEqual
+- [ ] isFirstDayOfMonth
+- [ ] isFriday
+- [ ] isFuture
+- [ ] isLastDayOfMonth
+- [ ] isLeapYear
+- [ ] isMonday
+- [ ] isPast
+- [ ] isSameDay
+- [ ] isSameHour
+- [ ] isSameISOWeek
+- [ ] isSameISOYear
+- [ ] isSameMinute
+- [ ] isSameMonth
+- [ ] isSameQuarter
+- [ ] isSameSecond
+- [ ] isSameWeek
+- [ ] isSameYear
+- [ ] isSaturday
+- [ ] isSunday
+- [ ] isThisHour
+- [ ] isThisISOWeek
+- [ ] isThisISOYear
+- [ ] isThisMinute
+- [ ] isThisMonth
+- [ ] isThisQuarter
+- [ ] isThisSecond
+- [ ] isThisWeek
+- [ ] isThisYear
+- [ ] isThursday
+- [ ] isToday
+- [ ] isTomorrow
+- [ ] isTuesday
+- [ ] isValid
+- [ ] isWednesday
+- [ ] isWeekend
+- [ ] isWithinRange
+- [ ] isYesterday
+- [ ] lastDayOfISOWeek
+- [ ] lastDayOfISOYear
+- [ ] lastDayOfMonth
+- [ ] lastDayOfQuarter
+- [ ] lastDayOfWeek
+- [ ] lastDayOfYear
+- [ ] max
+- [ ] min
+- [ ] parse
+- [ ] setDate
+- [ ] setDay
+- [ ] setDayOfYear
+- [ ] setHours
+- [ ] setISODay
+- [ ] setISOWeek
+- [ ] setISOYear
+- [ ] setMilliseconds
+- [ ] setMinutes
+- [ ] setMonth
+- [ ] setQuarter
+- [ ] setSeconds
+- [ ] setYear
+- [ ] startOfDay
+- [ ] startOfHour
+- [ ] startOfISOWeek
+- [ ] startOfISOYear
+- [ ] startOfMinute
+- [ ] startOfMonth
+- [ ] startOfQuarter
+- [ ] startOfSecond
+- [ ] startOfToday
+- [ ] startOfTomorrow
+- [ ] startOfWeek
+- [ ] startOfYear
+- [ ] startOfYesterday
+- [ ] subDays
+- [ ] subHours
+- [ ] subISOYears
+- [ ] subMilliseconds
+- [ ] subMinutes
+- [ ] subMonths
+- [ ] subQuarters
+- [ ] subSeconds
+- [ ] subWeeks
+- [ ] subYears

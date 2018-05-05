@@ -16,6 +16,9 @@ exports.createDate = function(y) {
 
 exports.unsafeCreateDate = function(v) {
   return function () {
+    if (Array.isArray(v)) {
+      return new (Date.bind.apply(Date, [null].concat(v)))
+    }
     return new Date(v)
   }
 }
@@ -35,3 +38,23 @@ exports.closestIndexToImpl = dateFns.closestIndexTo
 exports.closestToImpl = dateFns.closestTo
 exports.compareAscImpl = dateFns.compareAsc
 exports.compareDescImpl = dateFns.compareDesc
+exports.differenceInCalendarDaysImpl = dateFns.differenceInCalendarDays
+exports.differenceInCalendarISOWeeksImpl = dateFns.differenceInCalendarISOWeeks
+exports.differenceInCalendarISOYearsImpl = dateFns.differenceInCalendarISOYears
+exports.differenceInCalendarMonthsImpl = dateFns.differenceInCalendarMonths
+exports.differenceInCalendarQuartersImpl = dateFns.differenceInCalendarQuarters
+exports.differenceInCalendarWeeksImpl = dateFns.differenceInCalendarWeeks
+exports.differenceInCalendarYearsImpl = dateFns.differenceInCalendarYears
+exports.differenceInDaysImpl = dateFns.differenceInDays
+exports.differenceInHoursImpl = dateFns.differenceInHours
+exports.differenceInISOYearsImpl = dateFns.differenceInISOYears
+exports.differenceInMillisecondsImpl = dateFns.differenceInMilliseconds
+exports.differenceInMinutesImpl = dateFns.differenceInMinutes
+exports.differenceInMonthsImpl = dateFns.differenceInMonths
+exports.differenceInQuartersImpl = dateFns.differenceInQuarters
+exports.differenceInSecondsImpl = dateFns.differenceInSeconds
+exports.differenceInWeeksImpl = dateFns.differenceInWeeks
+exports.differenceInYearsImpl = dateFns.differenceInYears
+exports.distanceInWordsImpl = dateFns.distanceInWords
+exports.distanceInWordsStrictImpl = dateFns.distanceInWordsStrict
+exports.distanceInWordsToNowImpl = dateFns.distanceInWordsToNow

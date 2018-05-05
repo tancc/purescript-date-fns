@@ -34,3 +34,16 @@ type Options = (
               --  @TODO
               --  , local
                )
+
+type DistanceInWordsOpts = ( includeSeconds :: Boolean
+                           , addSuffix      :: Boolean
+                           , locale         :: ∀ l. Record l
+                           )
+
+type DistanceInWordsToNowOpts = DistanceInWordsOpts
+
+type DistanceInWordsStrictOpts = ( addSuffix     :: Boolean
+                           , unit          :: String
+                           , partialMethod :: String
+                           , locale        :: ∀ l. Record l
+                           )

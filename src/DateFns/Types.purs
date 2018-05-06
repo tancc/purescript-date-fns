@@ -33,8 +33,7 @@ type Options = (
                , addSuffix        :: Boolean
                , unit             :: String
                , roundingMethod   :: String
-              --  @TODO
-              --  , local
+               , locale           :: Locale
                )
 
 type DistanceInWordsOpts = ( includeSeconds :: Boolean

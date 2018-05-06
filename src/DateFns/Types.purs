@@ -6,6 +6,8 @@ import Control.Monad.Eff (kind Effect)
 import Control.Monad.Eff.Exception (EXCEPTION)
 import Unsafe.Coerce (unsafeCoerce)
 
+foreign import data Locale :: Type
+
 type Year      = Int
 type Month     = Int
 type Day       = Int
@@ -37,13 +39,29 @@ type Options = (
 
 type DistanceInWordsOpts = ( includeSeconds :: Boolean
                            , addSuffix      :: Boolean
-                           , locale         :: ∀ l. Record l
+                           , locale         :: Locale
                            )
 
 type DistanceInWordsToNowOpts = DistanceInWordsOpts
 
 type DistanceInWordsStrictOpts = ( addSuffix     :: Boolean
-                           , unit          :: String
-                           , partialMethod :: String
-                           , locale        :: ∀ l. Record l
-                           )
+                                 , unit          :: String
+                                 , partialMethod :: String
+                                 , locale        :: Locale
+                                 )
+
+type EndOfWeekOpts = (weekStartsOn :: Int)
+
+type FormatOpts = (locale :: Locale)
+
+type IsSameWeekOpts = (weekStartsOn :: Int)
+
+type IsThisWeekOpts = (weekStartsOn :: Int)
+
+type LastDayOfWeekOpts = (weekStartsOn :: Int)
+
+type ParseOpts = (additionalDigits :: Int)
+
+type SetDayOpts = (weekStartsOn :: Int)
+
+type StartOfWeekOpts = (weekStartsOn :: Int)

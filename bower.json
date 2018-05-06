@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "purescript-date-fns",
   "homepage": "https://github.com/tancc/purescript-date-fns",
   "description": "PureScript bindings for date-fns",
